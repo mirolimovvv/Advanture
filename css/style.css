@@ -51,7 +51,7 @@
     border: 1px solid #fff;
     transition: 1s;
     color: #fc036b;
-    background-color: #fff;
+    background-color: rgb(255, 206, 206);
 }
 .navbar .nav-links ul li{
     display: inline-block;
@@ -119,7 +119,7 @@
 .text-box a:hover{
     border: 1px solid #fff;
     color: #fc036b;
-    background-color: #fff;
+    background-color: rgb(255, 205, 205);
 }
 /* ------------------------------------course---------------- */
 .course {
@@ -278,7 +278,7 @@
 .tex-box a:hover{
     border: 1px solid #fff;
     color: #fc036b;
-    background-color: #fff;
+    background-color: rgb(255, 205, 205);
 }
 /* ---------------------------cactus------------------- */
 .row{
@@ -328,7 +328,7 @@
 .row .tours-col a:hover{
     border: 1px solid #fff;
     color: #fc036b;
-    background-color: #fff;
+    background-color: rgb(255, 205, 205);
  }
 .row .tours-image-col .image-gallery{
     padding-top: 70px;
@@ -386,7 +386,7 @@
     }
     .course .images{
         width: 100%;
-        display: block;
+        flex-direction: column;
     }
     .course .images img{
         width: 100%;
